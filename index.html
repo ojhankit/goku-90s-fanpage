@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Goku Fan Page - 90s Style</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="heading">Goku Fan Page</h1>
+        
+        <div class="about">
+            <div class="image"></div>
+            <div class="description">
+                <p>
+                    Welcome to the ultimate fan page dedicated to <strong>Goku</strong>! 
+                    Relive the glory of the 90s when we tuned in to watch <em>Dragon Ball Z</em> 
+                    on TV. Whether Goku was facing Freeza, Cell, or Majin Buu, his courage and 
+                    Super Saiyan transformations made him a timeless hero. 
+                </p>
+                <p>Let’s power up and celebrate the Saiyan warrior!</p>
+            </div>
+        </div>
+        
+        <div class="extras">
+            <button class="btn" onclick="showGif()">Kamehameha!</button>
+            <div id="gifContainer" class="gif hidden"></div>
+        </div>
+
+        <h2 class="sub-heading">Transformations</h2>
+        <div class="transformations">
+            <div class="card" onclick="showImage('goku_ssj')">
+                <h3>Super Saiyan</h3>
+                <div class="transformation-img" style="background-image: url('./goku-ssj1.webp');"></div>
+            </div>
+            <div class="card" onclick="showImage('goku_ssj3')">
+                <h3>Super Saiyan 3</h3>
+                <div class="transformation-img" style="background-image: url('./goku-ssj3.webp');"></div>
+            </div>
+            <div class="card" onclick="showImage('goku_ssj_blue')">
+                <h3>Super Saiyan Blue</h3>
+                <div class="transformation-img" style="background-image: url('./goku-ssjblue.jpg');"></div>
+            </div>
+            <div class="card" onclick="showImage('goku_ssj_god')">
+                <h3>Super Saiyan God</h3>
+                <div class="transformation-img" style="background-image: url('./goku-ssjgod.jpg');"></div>
+            </div>
+        </div>
+
+        <div class="family">
+            <h2 class="sub-heading">Goku's Family</h2>
+            <div class="family-members">
+                <div class="member">
+                    <h3>Chi-Chi</h3>
+                    <p>Goku's devoted wife and the loving mother of Gohan and Goten.</p>
+                </div>
+                <div class="member">
+                    <h3>Gohan</h3>
+                    <p>Goku's eldest son, a scholar with immense fighting potential.</p>
+                </div>
+                <div class="member">
+                    <h3>Goten</h3>
+                    <p>Goku's youngest son, playful and a natural fighter like his father.</p>
+                </div>
+                <div class="member">
+                    <h3>Grandpa Gohan</h3>
+                    <p>The kind-hearted martial artist who raised Goku in his early years.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
